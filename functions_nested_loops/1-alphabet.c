@@ -14,16 +14,14 @@
  *  *  print_alphabet - Write a program that prints the alphabet
  *  *  in lowercase,followed by a new line.
  */
-
 void print_alphabet(void)
 {
-	char ch = 'a';
+	char c = 'a';
 
-	while (ch <= 'z')
+	while (c <= 'z')
 {
-		_putchar(ch);
-		ch++;
+		_putchar(c);
+		c++;
 }
 		_putchar('\n');
-		return (0);
 }
