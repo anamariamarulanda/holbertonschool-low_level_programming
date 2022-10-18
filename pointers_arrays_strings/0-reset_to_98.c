@@ -1,7 +1,7 @@
 /*
  *  * ==================================================================
- *  * PROYECT C - Functions, nested loops
- *  * TASK 0 : _putchar
+ *  * PROYECT C - Pointers, arrays and strings
+ *  * TASK 0 : 98 Battery st.
  *  * ==================================================================
  *  * AUTHOR : ANA MARIA MARULANDA GALLEGO
  *  * ==================================================================
