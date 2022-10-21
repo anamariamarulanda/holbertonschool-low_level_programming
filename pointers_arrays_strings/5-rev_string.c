@@ -20,26 +20,21 @@
 void rev_string(char *s)
 
 {
-	int i, c, k;
-	char *a, aux;
+	int len = 0, i, length;
+	char c;
 
-		a = s;
-
-	while (s[c] != '\0')
+		while (*(s + len) != '\0')
 {
-		c++;
+			len++;
 }
+			length = len;
+			len--;
 
-	for (k = 1; k < c; k++)
+			for (i = 0; i < length / 2; i++)
 {
-		a++;
-}
-
-	for (i = 0; i < (c / 2); i++)
-{
-		aux = s[i];
-		s[i] = *a;
-		*a = aux;
-		a--;
+				c = *(s + i);
+				*(s + i) = *(s + len);
+				*(s + len) = c;
+				len--;
 }
 }
