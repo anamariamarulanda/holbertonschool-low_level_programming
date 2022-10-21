@@ -1,7 +1,7 @@
 /*
  *  * ==================================================================
  *  * PROYECT C - Pointers, arrays and strings
- *  * TASK 4 : I can only go one way. I've not got a reverse gear
+ *  * TASK 5 :  Always look up
  *  * ==================================================================
  *  * AUTHOR : ANA MARIA MARULANDA GALLEGO
  *  * ==================================================================
@@ -10,24 +10,23 @@
 #include "main.h"
 
 /**
- ** print_rev - prints a string in stdout in reverse
- ** @s: Pointer to string to reverse
+ ** string_toupper - Changes all lowercase letters to uppercase
+ ** @p: The string will be modified
  **
- ** Return: 0
-*/
+ ** Return: char var
+ */
 
-void print_rev(char *s)
+char *string_toupper(char *p)
 {
-	int i = 0;
-	int c = 0;
+	int a = 0;
 
-		while (s[c] != '\0')
+	while (p[a])
 {
-			c++;
-}
-		for (i = (c - 1); i >= 0; i--)
+	if (p[a] >= 97 && p[a] <= 122)
 {
-			_putchar(s[i]);
+		p[a] -= 32;
 }
-			_putchar('\n');
+		a++;
+}
+	return (p);
 }

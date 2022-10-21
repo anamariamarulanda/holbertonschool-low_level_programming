@@ -1,8 +1,8 @@
 /*
  *  * ==================================================================
  *  * PROYECT C - Pointers, arrays and strings
- *  * TASK 3 : "Strcmp"
- *  * against the risk of being read
+ *  * TASK 4 : I am a kind of paranoid in reverse. I suspect people of
+ *  * plotting to make me happy
  *  * ==================================================================
  *  * AUTHOR : ANA MARIA MARULANDA GALLEGO
  *  * ==================================================================
